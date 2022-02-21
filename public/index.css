@@ -1,0 +1,8 @@
+body
+{
+    background-image: url("./background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   /*这条必须设置 相对于viewpork固定*/
+    background-position: center center;
+}

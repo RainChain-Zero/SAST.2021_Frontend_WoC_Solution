@@ -1,0 +1,56 @@
+.weatherDaysContainer>ul>li{
+    list-style: none;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    border: 1px white solid;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    box-shadow: 0 0 1px #44d7ff inset;
+    transform: scale(1);
+    transition: .2s;
+    height: auto;
+    overflow: auto;
+    font-family: 微软雅黑, sans-serif;
+    font-size: 15px;
+}
+
+.weatherDaysContainer>ul>li:hover{
+    border: 1px lightblue solid;
+    box-shadow: 1px 1px 1px 1px lightblue;
+    transform: scale(1.05);
+    transition: .2s;
+}
+.weatherDaysContainer ul{
+    padding: 0;
+}
+
+.weatherDaysDetail li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 9px;
+    width: 120px;
+}
+
+.weatherDaysDetail{
+    position: relative;
+}
+
+.weatherDaysHeader{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.weatherDaysHeader>li{
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    margin-right: 9px;
+    font-family: 微软雅黑, sans-serif;
+    font-size: 17px;
+    color: #daf7f6;
+}

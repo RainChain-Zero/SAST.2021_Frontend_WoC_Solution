@@ -1,0 +1,48 @@
+.weatherHoursContainer {
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.weatherHoursContainer ul {
+    padding: 0;
+}
+
+.weatherHoursContainer > ul > li {
+    list-style: none;
+    display: inline-block;
+    height: 165px;
+    border: 1px white solid;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1px #44d7ff inset;
+    transform: scale(1);
+    transition: .2s;
+    box-sizing: border-box;
+    width: 12.5%;
+    text-align: center;
+    overflow: auto;
+}
+
+.weatherHoursContainer > ul > li:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.weatherHoursContainer > ul > li img {
+    position: relative;
+    display: block;
+    left: 37px;
+}
+
+.weatherHoursContainer li .weatherHourDes li {
+    display: block;
+
+}
+
+.weatherHourDes {
+    overflow: auto;
+}

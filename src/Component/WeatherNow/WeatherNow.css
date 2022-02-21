@@ -1,0 +1,117 @@
+.weatherTodayContainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px white solid;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 1px #44d7ff inset;
+    transform: scale(1);
+    transition: .2s;
+}
+
+.weatherTodayContainer:hover {
+    border: 1px lightblue solid;
+    box-shadow: 1px 1px 1px 1px lightblue;
+    transform: scale(1.02);
+    transition: .2s
+}
+
+.weatherTodayTemp {
+    position: relative;
+    margin-right: 20px;
+}
+
+.weatherTodayTemp > strong {
+    position: relative;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 154px;
+    margin-left: 20px;
+    color: #daf7f6;
+    text-shadow: 1.25px 1.25px 1.25px #daf7f6;
+}
+
+.weatherTodayTemp > span {
+    float: right;
+    margin-top: 25%;
+    font-size: 24px;
+    margin-left: 10px;
+    color: #daf7f6;
+    text-shadow: 1px 1px 1px #daf7f6;
+}
+
+.weatherNowDesc {
+    position: relative;
+    margin-left: 5px;
+}
+
+.weatherTodayContainer .weatherNowDesc img {
+    display: block;
+    margin: 40px 90px 0 35px;
+}
+
+.weatherNowDesc div {
+    margin-left: 40px;
+    margin-top: -8px;
+
+}
+
+.weatherNowDesc div span {
+    font-family: 微软雅黑, sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+
+.weatherTodayDetail {
+    margin-left: 50px;
+    display: inline-block;
+    overflow: auto;
+}
+
+.weatherTodayDetail ul {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.weatherTodayDetail ul li {
+    list-style: none;
+    line-height: 35px;
+    font-family: 微软雅黑, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.airCondition{
+    width:175px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-right:25px
+}
+
+.airCondition span{
+    display: block;
+    color: #daf7f6;
+    text-shadow: 1px 1px 1px #daf7f6;
+}
+
+.airConditionCategory{
+    margin-top:28%;
+    margin-left:38% ;
+    font-size: 40px;
+    font-family: 微软雅黑, sans-serif;
+}
+
+.airConditionAqi{
+    margin-top: 10%;
+    margin-left: 45%;
+    font-family: Times New Roman, sans-serif;
+}

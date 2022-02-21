@@ -1,0 +1,43 @@
+.lifeSuggestionContainer {
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.suggestionList {
+    padding: 0;
+}
+
+.suggestionList > li {
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+    overflow: auto;
+    border: 1px white solid;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    box-shadow: 0 0 1px #44d7ff inset;
+}
+
+.suggestionList > li:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.suggestionList > li img {
+    display: block;
+    margin-left: 35%;
+}
+
+.suggestionList > li span {
+    display: block;
+    color: #daf7f6;
+    /*text-shadow: 0.5px 0.5px 0.5px #daf7f6;*/
+    font-family: 微软雅黑, sans-serif;
+    font-weight: 600;
+    margin-left: 30%;
+}

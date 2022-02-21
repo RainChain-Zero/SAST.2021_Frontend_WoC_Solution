@@ -1,0 +1,62 @@
+.header {
+    position: relative;
+    left: 0;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 1px 40px -8px rgba(255, 255, 255, .4);
+    width: 100%;
+    min-height: 75px;
+    top: 0;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.header > h1 {
+    position: relative;
+    top: 0;
+    left: 8%;
+    font-family: Times New Roman, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #313030;
+    line-height: 75px;
+    margin-right: 300px
+}
+
+.header > svg {
+    position: absolute;
+    margin: 0 5px 6px 6%;
+}
+
+header .ant-select {
+    position: absolute;
+    right: 119px;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.header > h1 > span {
+    font-family: 微软雅黑, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    margin-right: 50px;
+}
+
+.header .anticon {
+    position: absolute;
+    right: 85px;
+    top: 23px;
+}
+
+.header .anticon-environment svg {
+    width: 28px;
+    height: 28px;
+}
+
+.header > h1 > span img {
+    margin-top: -13px;
+}
